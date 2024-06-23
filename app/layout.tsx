@@ -19,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/file-ddKcTy5LF-transformed.png" sizes="any" />
+        <link
+          rel="file-ddKcTy5LF-transformed.png"
+          href="/file-ddKcTy5LF-transformed.png"
+          sizes="any"
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider
