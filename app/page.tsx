@@ -19,13 +19,15 @@ export default function Home() {
         <div>
           <Hero />
         </div>
-        <Skill />
-        {/* <Grid /> */}
-        <RecentProject />
-        {/* <Clients /> */}
-        <Experience />
-        <Approach />
-        <Footer />
+        <div className="max-w-[90%] lg:max-w-7xl mx-auto">
+          <Skill />
+          {/* <Grid /> */}
+          <RecentProject />
+          {/* <Clients /> */}
+          <Experience />
+          <Approach />
+          <Footer />
+        </div>
       </div>
     </main>
   );
