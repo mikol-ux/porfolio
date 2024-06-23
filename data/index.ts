@@ -180,15 +180,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Designed an interactive hospital website",
+    desc: "Designed and developed Hospital for both iOS & Android platforms using Nextjs.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a web app for a client, from initial concept to deployment on launch.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -214,4 +214,31 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+];
+
+export const phase = [
+  {
+    title: "Planning & Strategy",
+    des: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+  },
+  {
+    title: "Development & Progress Update",
+
+    des: "Once we agree on the plan, I cue my lofi playlist and dive intocoding. From initial sketches to polished code, I keep you updatedevery step of the way.",
+  },
+  {
+    title: "Development & Launch",
+
+    des: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+  },
+];
+
+export const Skills = [
+  { title: "React", image: "/React.svg" },
+  { title: "Nextjs", image: "/next.svg" },
+  { title: "Typescript", image: "/Typescript.svg" },
+  { title: "TailWind", image: "/Tailwind.svg" },
+  { title: "Firebase", image: "/Firebase.svg" },
+  { title: "Prisma", image: "/Prisma.svg" },
+  { title: "Supabase", image: "/Supabase.svg" },
 ];

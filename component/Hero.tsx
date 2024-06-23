@@ -13,10 +13,10 @@ const Hero = () => {
       containerClassName="h-auto w-full pt-20 pb-36"
       particleCount={700}
       baseRadius={1}
-      baseHue={90}
+      baseHue={120}
       rangeY={80}
       rangeSpeed={1.5}
-      backgroundColor="#04052E"
+      backgroundColor="Black"
     >
       <div className="">
         {/**
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[90vw] flex flex-col items-center justify-center xl:flex-row gap-10">
             {/* text */}
 
-            <div className="text-center xl:text-left lg:max-w-[40vw]">
+            <div className="text-center xl:text-left lg:max-w-[40vw] text-gray-300">
               <span>Hello i&apos;m</span>
               <h1 className="text-[40px] font-bold capitalize leading-[3rem]">
                 rachid <br />

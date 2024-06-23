@@ -5,7 +5,7 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full max-w-7xl mx-auto">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -20,9 +20,9 @@ const Experience = () => {
             style={{
               //   add these two
               //   you can generate the color from here https://cssgradient.io/
-              background: "rgb(4,7,29)",
+              background: "rgb(11, 0, 51)",
               backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                "linear-gradient(90deg, rgba(4,9,29,1) 0%, rgba(12,4,35,1) 100%)",
               // add this border radius to make it more rounded so that the moving border is more realistic
               borderRadius: `calc(1.75rem* 0.96)`,
             }}

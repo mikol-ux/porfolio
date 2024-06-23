@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/PinContainer";
 import { FaLocationArrow } from "react-icons/fa6";
+import { ContainerScroll } from "./ui/Container";
 
 const RecentProject = () => {
   return (
