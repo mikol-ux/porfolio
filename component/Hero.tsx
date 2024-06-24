@@ -18,7 +18,7 @@ const Hero = () => {
       baseHue={120}
       rangeY={80}
       rangeSpeed={1.5}
-      backgroundColor="Black"
+      backgroundColor="black"
     >
       <div className="">
         {/**
@@ -54,7 +54,12 @@ const Hero = () => {
                 <span className="under-line">Micheal</span>
               </h1>
               <div className="py-8">
-                <TypewriterEffectSmooth words={words} />
+                <TextGenerateEffect
+                  words=" I am a front End developer 
+                i utilize the latest technologies for web development using 
+                Typescript for enhanced type safety for secure deployment.   Project Happy Deployment."
+                  className="text-center text-[20px] md:text-xl lg:text-2xl"
+                />
               </div>
               <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
                 <div className="flex gap-x-2">
