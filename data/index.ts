@@ -242,3 +242,82 @@ export const Skills = [
   { title: "Prisma", image: "/Prisma.svg" },
   { title: "Supabase", image: "/Supabase.svg" },
 ];
+export const words = [
+  {
+    text: "I",
+  },
+  {
+    text: "am",
+  },
+  {
+    text: "a",
+  },
+  {
+    text: "frontEnd",
+  },
+  {
+    text: "developer",
+  },
+  {
+    text: "i",
+  },
+  {
+    text: "utilize",
+  },
+  {
+    text: "the",
+  },
+  {
+    text: "latest",
+  },
+  {
+    text: "technologies",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "web development",
+  },
+  {
+    text: "using",
+  },
+  {
+    text: "Typescript",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "enhanced",
+  },
+  {
+    text: "type",
+  },
+  {
+    text: "safety",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "secure",
+  },
+  {
+    text: "deployment",
+  },
+  {
+    text: "of",
+  },
+  {
+    text: "Project",
+  },
+  {
+    text: "Happy.",
+    className: "text-blue-500 dark:text-blue-500",
+  },
+  {
+    text: "Deployment.",
+    className: "text-Purple-500 dark:text-Purple-500",
+  },
+];

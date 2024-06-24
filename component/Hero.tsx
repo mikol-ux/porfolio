@@ -6,6 +6,8 @@ import Link from "next/link";
 import Social from "./Social";
 import Photo from "./Picture";
 import { Vortex } from "./ui/Vortex";
+import { TypewriterEffectSmooth } from "./ui/Typewriter";
+import { words } from "@/data";
 
 const Hero = () => {
   return (
@@ -48,16 +50,11 @@ const Hero = () => {
             <div className="text-center xl:text-left lg:max-w-[40vw] text-gray-300">
               <span>Hello i&apos;m</span>
               <h1 className="text-[40px] font-bold capitalize leading-[3rem]">
-                rachid <br />
-                <span className="under-line">Amgoun</span>
+                Okoye <br />
+                <span className="under-line">Micheal</span>
               </h1>
               <div className="py-8">
-                <p>
-                  I have the perfect solution for your web development needs. By
-                  adopting a modern stack, like MERN, and incorporating
-                  TypeScript for enhanced type safety, we can create an
-                  exceptional web application.
-                </p>
+                <TypewriterEffectSmooth words={words} />
               </div>
               <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
                 <div className="flex gap-x-2">
