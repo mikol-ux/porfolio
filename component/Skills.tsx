@@ -13,7 +13,7 @@ const skillItems = Skills.map((skill) => ({
 const Skill = () => {
   return (
     <div className="py-20 ">
-      <div className="max-w-75xl mx-auto px-8">
+      <div className="max-w-75xl mx-auto">
         <h1 className="heading">
           My {""}
           <span className="text-purple">Skills</span>
