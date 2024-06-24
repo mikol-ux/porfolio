@@ -28,7 +28,7 @@ export const HoverEffect = ({
         <Link
           href={item?.link}
           key={item?.link}
-          className="relative group block p-2 h-auto w-full "
+          className="relative group block p-2 h-auto w-full pb-8 "
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
@@ -71,7 +71,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "flex justify-center items-center rounded-2xl h-[16rem] w-full p-4 overflow-hidden bg-[#040014] border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "flex justify-center items-center rounded-2xl h-[16rem] w-full p-4 overflow-hidden bg-[#0F0637] border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
