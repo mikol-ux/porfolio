@@ -22,7 +22,7 @@ export default function Home() {
         <div className="max-w-[90%] lg:max-w-7xl mx-auto">
           <Skill />
           {/* <Grid /> */}
-          <RecentProject />
+          {/* <RecentProject /> */}
           {/* <Clients /> */}
           <Experience />
           <Approach />
