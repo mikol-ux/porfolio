@@ -58,7 +58,7 @@ const Hero = () => {
                   words=" I am a front End developer 
                 i utilize the latest technologies for web development using 
                 Typescript for enhanced type safety for secure deployment.   Project Happy Deployment."
-                  className="text-center text-[20px] md:text-xl lg:text-2xl"
+                  className=" text-[20px] md:text-xl lg:text-2xl"
                 />
               </div>
               <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
